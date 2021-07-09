@@ -2,7 +2,7 @@
   "name": "semantic_notifications",
   "version": "0.0.1",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/@samuelwitke"
+    "@samuelwitke:registry": "https://npm.pkg.github.com"
   },
   "peerDependencies": {
     "react": "17.0.1",
