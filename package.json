@@ -1,5 +1,5 @@
 {
-  "name": "semantic_notifications",
+  "name": "@samuelwitke/semantic_notifications",
   "version": "0.0.1",
   "publishConfig": {
     "@samuelwitke:registry": "https://npm.pkg.github.com"
