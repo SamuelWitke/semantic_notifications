@@ -12,7 +12,6 @@ import InfoIcon from '@material-ui/icons/Info';
 import Button from '@material-ui/core/Button';
 import SnackbarContent from '@material-ui/core/SnackbarContent';
 import classNames from 'classnames';
-import { withCignaTheme } from '@cigna/da_healthplan_canvas-ui';
 import * as actions from '../actions';
 
 const useStyles = makeStyles((theme) => ({
@@ -145,9 +144,8 @@ Notifications.propTypes = {
   dismissNotification: PropTypes.func.isRequired,
 };
 
-export default withCignaTheme(
+export default 
   connect(
     ({ notifications: { allIds, byId } }) => ({ allIds, byId }),
     actions
   )(Notifications)
-);
