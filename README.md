@@ -1,7 +1,7 @@
 # notifications
 ```jsx
 
-import { useNotifications } from '@cigna/amp-notifications';
+import { useNotifications } from '@';
 /**
  * Publish a notification. if `dismissAfter` is set, the notification will be
  * auto dismissed after the given period.
