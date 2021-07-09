@@ -1,4 +1,4 @@
-# notifications
+# notifications [![Node.js Package](https://github.com/SamuelWitke/semantic_notifications/actions/workflows/npm-publish.yml/badge.svg)](https://github.com/SamuelWitke/semantic_notifications/actions/workflows/npm-publish.yml)
 ```jsx
 
 import { useNotifications } from '@';
