@@ -1,8 +1,8 @@
 {
   "name": "@samuelwitke/semantic_notifications",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publishConfig": {
-    "@samuelwitke:registry": "https://npm.pkg.github.com"
+    "registry": "https://npm.pkg.github.com"
   },
   "dependencies": {
     "@material-ui/icons": "4.11.2",
