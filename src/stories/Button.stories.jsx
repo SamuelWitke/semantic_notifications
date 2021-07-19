@@ -1,7 +1,7 @@
 import React from 'react';
 import { Button } from './Button';
-import { useNotifications } from '../index'
-import {  Notifications } from '../index'
+import { useNotifications } from '../lib'
+import {  Notifications } from '../lib'
 
 
 export default {
