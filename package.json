@@ -1,14 +1,38 @@
 {
   "name": "@samuelwitke/semantic_notifications",
-  "version": "0.0.5",
+  "version": "0.0.138",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
   },
   "dependencies": {
-    "@material-ui/icons": "4.11.2",
     "classnames": "2.3.1",
     "react": "17.0.2",
     "react-dom": "17.0.2",
-    "react-redux": "7.2.4"
+    "react-redux": "7.2.4",
+    "redux-thunk": "^2.3.0",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^2.0.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.6",
+    "@storybook/addon-actions": "^6.3.4",
+    "@storybook/addon-essentials": "^6.3.4",
+    "@storybook/addon-links": "^6.3.4",
+    "@storybook/react": "^6.3.4",
+    "babel-loader": "^8.2.2",
+    "commitizen": "^4.2.4",
+    "cz-conventional-changelog": "^3.2.0",
+    "husky": "^7.0.1"
+  },
+  "scripts": {
+    "start": "start-storybook -p 6006",
+    "build-storybook": "build-storybook",
+    "release": "standard-version",
+    "prepare": "husky install"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
